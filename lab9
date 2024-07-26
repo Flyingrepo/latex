@@ -1,0 +1,64 @@
+
+Develop a latex script to create document that consists of 2 paragraphs with a minimum of 10
+citations in it and display reference in the section.
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{cite}
+\begin{document}
+\title{A Study on Latex Programs}
+\author{Your Name}
+\date{\today}
+\maketitle
+\section*{Introduction}
+This document demonstrates how to cite multiple references in a LaTeX document.
+\section{Paragraphs with Citations}
+\paragraph{}
+The research on machine learning has grown tremendously over the past decade. Several key papers
+have laid the foundation for modern machine learning algorithms. For instance, the work by Smith et
+al. \cite{smith2010} explores the basics of supervised learning. Johnson et al. \cite{johnson2012}
+delve into unsupervised learning techniques. Moreover, Brown's comprehensive study
+\cite{brown2015} on neural networks has significantly influenced subsequent research. Not to
+mention, Green et al. \cite{green2018} and White's \cite{white2017} contributions to deep learning
+and reinforcement learning, respectively, have been monumental. Additionally, the comparative
+analysis by Black et al. \cite{black2019} offers valuable insights into the strengths and weaknesses of
+various machine learning models.
+\paragraph{}
+Furthermore, advancements in natural language processing (NLP) have revolutionized the way we
+interact with machines. The pioneering work of Red et al. \cite{red2011} on word embeddings has
+paved the way for numerous applications. Blue et al. \cite{blue2013} expanded this by introducing
+context-aware embeddings. Yellow et al. \cite{yellow2016} focused on the application of
+transformers in NLP, which has since become a standard approach. Moreover, the innovative
+techniques proposed by Pink et al. \cite{pink2014} and Orange et al. \cite{orange2017} have further
+refined NLP models, making them more efficient and accurate. Lastly, Gray et al. \cite{gray2020}
+provided an extensive review of NLP advancements, highlighting the progress and future directions
+in the field.
+\section*{References}
+\begin{thebibliography}{10}
+\bibitem{smith2010} Smith, A., Brown, B., \& Johnson, C. (2010). An Introduction to Supervised
+Learning. \emph{Journal of Machine Learning}, 45(3), 234-245.
+\bibitem{johnson2012} Johnson, D., Green, E., \& White, F. (2012). Unsupervised Learning
+Techniques. \emph{Machine Learning Review}, 48(5), 789-798.
+\bibitem{brown2015} Brown, G. (2015). Neural Networks: A Comprehensive Study. \emph{Neural
+Processing Letters}, 52(1), 123-135.
+\bibitem{green2018} Green, H., Black, J., \& Yellow, L. (2018). Advances in Deep Learning.
+\emph{Deep Learning Journal}, 60(2), 201-212.
+\bibitem{white2017} White, M. (2017). Reinforcement Learning: Theory and Practice. \emph{Journal
+of Artificial Intelligence Research}, 54(4), 321-334.
+\bibitem{black2019} Black, N., Red, O., \& Blue, P. (2019). Comparative Analysis of Machine Learning
+Models. \emph{Computational Intelligence}, 58(3), 678-689.
+\bibitem{red2011} Red, A., Blue, B., \& Green, C. (2011). Word Embeddings in NLP. \emph{Journal of
+Computational Linguistics}, 33(2), 456-467.
+\bibitem{blue2013} Blue, D., Pink, E., \& Orange, F. (2013). Context-Aware Embeddings.
+\emph{Natural Language Engineering}, 36(1), 90-101.
+\bibitem{yellow2016} Yellow, G. (2016). Transformers in NLP. \emph{Neural Networks}, 47(5),
+210-221.
+\bibitem{pink2014} Pink, H., Gray, I., \& White, J. (2014). Efficient NLP Models. \emph{Journal of
+Language Technology}, 24(6), 567-579.
+\bibitem{orange2017} Orange, K., Black, L., \& Green, M. (2017). Refining NLP Techniques.
+\emph{Journal of Data Science}, 30(4), 345-356.
+\bibitem{gray2020} Gray, P., Yellow, Q., \& Blue, R. (2020). NLP Advancements: A Review.
+\emph{Journal of Artificial Intelligence}, 65(2), 98-112.
+\end{thebibliography}
+\end{document}

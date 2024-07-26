@@ -1,0 +1,56 @@
+
+\documentclass[12pt, a4paper]{report} % Document class with font size 12pt and paper size A4
+\usepackage{graphicx} % Package to include images
+\usepackage{geometry} % Package to customize page layout
+\geometry{a4paper, total={170mm, 257mm}, left=20mm, right=20mm, top=30mm, bottom=30mm}
+% Customizing page margins
+\thispagestyle{empty} % Suppressing page numbers for the title page
+\begin{document}
+\begin{titlepage} % Starting the title page environment
+\begin{center} % Centering content
+% University Details
+\textbf{{\large VISVESVARAYA TECHNOLOGICAL UNIVERSITY}}\\
+{\normalsize Jnana Sangama, Belgaum-590018}\\
+\vspace{0.3in}
+\includegraphics[scale=0.4]{Images/smvitm.png}\\
+\vspace{0.3in}
+% Title and Project Details
+\textbf{A PROJECT REPORT} \\
+ON \\
+\vspace{0.2in}
+\textbf{{\large "Create Report Format Using LaTeX"}}\\
+\vspace{0.1in}
+{\small Submitted in partial fulfillment of the requirements for the award of
+the degree of
+Bachelor of Engineering in Computer Science }\\
+\vspace{0.1in}
+\textbf{BACHELOR OF ENGINEERING\\IN\\COMPUTER SCIENCE AND
+ENGINEERING}\\
+\vspace{0.2in}
+Submitted by\\
+\vspace{0.08in}
+\begin{tabular}{ll}
+\textbf{4MW21CS001} & \textbf{GANESH}\\
+\textbf{4MW21CS002} & \textbf{RAJESH}\\
+\textbf{4MW21CS003} & \textbf{SANDESH}\\
+\textbf{4MW21CS004} & \textbf{RAMESH}\\
+\end{tabular}
+\vspace{0.2in}
+% Guide Details
+\textbf{Under the Guidance of}\\
+Dr. Sadananda L\\
+Asso. Professor Department of CSE\\
+\vspace{0.2in}
+% College Details
+\includegraphics[scale=0.4]{Images/vtu.jpg}\\
+\vspace{0.01in}
+{\small DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING}\\
+\vspace{0.1in}
+\textbf{SHRI MADHWA VADIRAJA INSTITUTE OF TECHNOLOGY AND
+MANAGEMENT}\\
+{\small Vishwthama Nagara, Bantakal-574115}\\
+\vspace{0.1in}
+{\small 2023-2024}\\
+\end{center} % Ending the center environment
+\end{titlepage} % Ending the title page environment
+\end{document}

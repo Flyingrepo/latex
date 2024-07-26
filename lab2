@@ -1,0 +1,38 @@
+
+\documentclass [25pt, a4paper] {article)
+
+\usepackage[left=3cm.right=3cm,top-2cm.bottom=2cm] [geometry)
+
+\begin{document}
+
+\begin{center}
+
+Large
+
+\textbf{Thesis Title}
+
+\vspace{0.4cm]
+
+Targe
+
+Thesis Subtitle
+
+\vspace{0.4cm]
+
+\textbf [Author Name]
+
+\vspace{0.9cm]
+
+\textbf{Abstract]
+
+\end[center]
+
+News has become an important medium for everyone to stay aware and updated with the latest happenings in the world.
+
+Fake news causes a lot of economic and social problems. It also gets difficult to trace back the source of fake news and hold someone accountable in order to curb it down.
+
+Our project aims to create a platform that runs on a blockchain network. News based media will be shared across this network.
+
+The platform will be highly intuitive and interactive for users to browse through different sections of news.
+
+\end{document}

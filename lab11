@@ -1,18 +1,21 @@
-
 \documentclass{article}
 \usepackage[utf8]{inputenc}
 \usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+\usepackage{amsmath}
 \begin{document}
-\begin{algorithm}[H]
+
+\begin{algorithm}
 \caption{Euclid's algorithm}
-\KwIn{Two non-negative integers $a$ and $b$}
+\KwIn{Two non-negative integers $a$ mod $b$}
 \KwOut{$\gcd(a, b)$}
-%\DontPrintSemicolon
+
 \While{$b \neq 0$}{
-$r \gets ab$\;
+$r \gets a \mod b$\;
 $a \gets b$\;
 $b \gets r$\;
 }
 \Return $a$\;
+
 \end{algorithm}
+
 \end{document}

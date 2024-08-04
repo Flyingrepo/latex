@@ -1,8 +1,8 @@
 
 \documentclass[10pt,a4paper]{article}
 \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
-\usepackage{graphicx} % For including graphics
-\usepackage{subfig} % For creating subfigures
+\usepackage{graphicx}
+\usepackage{subfig} 
 \begin{document}
 \begin{center}
 \Large \textbf{Side-by-Side Figures Example}
@@ -14,7 +14,8 @@
 \includegraphics[width=0.35\textwidth]{Images/smvitm.jpg}%
 \label{fig:fig1}%
 }
-\hspace{0.05\textwidth}
+\hspace{0.05\textwidth
+}
 \subfloat[VTU]{%
 \includegraphics[width=0.35\textwidth]{Images/vtu.jpg}%
 \label{fig:fig2}%

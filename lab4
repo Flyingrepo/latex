@@ -5,10 +5,10 @@ bottom=30mm]{geometry}
 \usepackage{graphicx}
 \usepackage{ragged2e}
 \usepackage{array}
-\usepackage{tabularx} % Package for tables with adjustable widt
+\usepackage{tabularx} 
 \usepackage{mdframed}
 \begin{document}
-\thispagestyle{empty} % Suppressing page numbers for the title page
+\thispagestyle{empty} 
 \begin{mdframed}[linewidth=1pt]
 \begin{center}
 \textbf{Shri Madhwa Vadiraja Institute of Technology and Management} \\

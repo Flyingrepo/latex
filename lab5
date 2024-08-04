@@ -1,5 +1,3 @@
-
-
 \documentclass[10pt,a4paper]{article}
 \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
 \usepackage{multirow}
@@ -12,7 +10,7 @@
 \section*{Marks Table}
 \begin{tabular}{|c|c|c|c|c|c|}
 \hline
-\multirow{2}{}{S.No} & \multirow{2}{}{USN} & \multirow{2}{*}{Student Name} &
+\multirow{2}{*}{SiNo} & \multirow{2}{*}{USN} & \multirow{2}{*}{Student Name} &
 \multicolumn{3}{c|}{Marks} \\
 \cline{4-6}
 & & & Subject1 & Subject2 & Subject3 \\

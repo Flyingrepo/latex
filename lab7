@@ -9,13 +9,13 @@
 \end{center}
 \vspace{0.5cm}
 \begin{minipage}[t]{0.48\textwidth}
-%\begin{fleqn}
+\begin{fleqn}
 \begin{align*}
 x &= \frac{-b \pm \sqrt{b^{2}-4ac}}{2a} \\
 &= \frac{-2 \pm \sqrt{2^{2}-4 \cdot 1 \cdot (-8)}}{2 \cdot 1} \\
 &= \frac{-2 \pm \sqrt{4+32}}{2}
 \end{align*}
-%\end{fleqn}
+\end{fleqn}
 \end{minipage} \hfill
 \begin{minipage}[t]{0.48\textwidth}
 \begin{fleqn}
@@ -28,5 +28,6 @@ x &= \frac{-b \pm \sqrt{b^{2}-4ac}}{2a} \\
 &= A_{\sigma t} \varphi^{\lambda}_{\sigma}
 \end{align*}
 \end{fleqn}
+
 \end{minipage}
 \end{document}

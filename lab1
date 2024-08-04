@@ -1,0 +1,11 @@
+\documentclass{article}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{report}
+\rfoot{smvitm,\thepage}
+\begin{document}
+\section{section1}
+skdsjjbjkjkjj
+\section{section2}
+djjjshjkhsdjhdja
+\end{document}

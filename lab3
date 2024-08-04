@@ -1,20 +1,20 @@
 
-\documentclass[12pt, a4paper]{report} % Document class with font size 12pt and paper size A4
-\usepackage{graphicx} % Package to include images
-\usepackage{geometry} % Package to customize page layout
+\documentclass[12pt, a4paper]{report}
+\usepackage{graphicx} 
+\usepackage{geometry} 
 \geometry{a4paper, total={170mm, 257mm}, left=20mm, right=20mm, top=30mm, bottom=30mm}
-% Customizing page margins
-\thispagestyle{empty} % Suppressing page numbers for the title page
+
+\thispagestyle{empty} 
 \begin{document}
-\begin{titlepage} % Starting the title page environment
-\begin{center} % Centering content
-% University Details
+\begin{titlepage} 
+\begin{center}
+
 \textbf{{\large VISVESVARAYA TECHNOLOGICAL UNIVERSITY}}\\
 {\normalsize Jnana Sangama, Belgaum-590018}\\
 \vspace{0.3in}
-\includegraphics[scale=0.4]{Images/smvitm.png}\\
+\includegraphics[scale=0.4]{Images/smvitm.png}
 \vspace{0.3in}
-% Title and Project Details
+
 \textbf{A PROJECT REPORT} \\
 ON \\
 \vspace{0.2in}
@@ -30,18 +30,18 @@ ENGINEERING}\\
 Submitted by\\
 \vspace{0.08in}
 \begin{tabular}{ll}
-\textbf{4MW21CS001} & \textbf{GANESH}\\
-\textbf{4MW21CS002} & \textbf{RAJESH}\\
-\textbf{4MW21CS003} & \textbf{SANDESH}\\
-\textbf{4MW21CS004} & \textbf{RAMESH}\\
+\textbf{4MW21CS001} & \textbf{dileep}\\
+\textbf{4MW21CS002} & \textbf{chirag}\\
+\textbf{4MW21CS003} & \textbf{atul}\\
+\textbf{4MW21CS004} & \textbf{adish}\\
 \end{tabular}
 \vspace{0.2in}
-% Guide Details
+
 \textbf{Under the Guidance of}\\
-Dr. Sadananda L\\
-Asso. Professor Department of CSE\\
+Ms Yashaswini AS\\
+Asst Professor Department of CSE\\
 \vspace{0.2in}
-% College Details
+
 \includegraphics[scale=0.4]{Images/vtu.jpg}\\
 \vspace{0.01in}
 {\small DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING}\\
@@ -51,6 +51,6 @@ MANAGEMENT}\\
 {\small Vishwthama Nagara, Bantakal-574115}\\
 \vspace{0.1in}
 {\small 2023-2024}\\
-\end{center} % Ending the center environment
-\end{titlepage} % Ending the title page environment
+\end{center} 
+\end{titlepage} 
 \end{document}

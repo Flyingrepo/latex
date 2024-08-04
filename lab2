@@ -1,38 +1,32 @@
 
-\documentclass [25pt, a4paper] {article)
+\documentclass [25pt, a4paper] {article}
 
-\usepackage[left=3cm.right=3cm,top-2cm.bottom=2cm] [geometry)
+\usepackage[left=3cm.right=3cm,top-2cm.bottom=2cm] {geometry}
 
 \begin{document}
 
 \begin{center}
 
-Large
+\Large
 
-\textbf{Thesis Title}
+\textbf{Latex Lab}
 
-\vspace{0.4cm]
+\vspace{0.4cm}
 
-Targe
+\textbf{subtitle}
 
-Thesis Subtitle
+\vspace{0.4cm}
 
-\vspace{0.4cm]
+\textbf {Author Name}
 
-\textbf [Author Name]
+\vspace{0.9cm}
 
-\vspace{0.9cm]
+\textbf{Abstract}
 
-\textbf{Abstract]
-
-\end[center]
+\end{center}
 
 News has become an important medium for everyone to stay aware and updated with the latest happenings in the world.
 
 Fake news causes a lot of economic and social problems. It also gets difficult to trace back the source of fake news and hold someone accountable in order to curb it down.
-
-Our project aims to create a platform that runs on a blockchain network. News based media will be shared across this network.
-
-The platform will be highly intuitive and interactive for users to browse through different sections of news.
 
 \end{document}
